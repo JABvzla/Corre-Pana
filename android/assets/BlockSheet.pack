@@ -1,0 +1,19 @@
+
+BlockSheet.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+item
+  rotate: false
+  xy: 1, 1
+  size: 137, 162
+  orig: 137, 162
+  offset: 0, 0
+  index: -1
+item2
+  rotate: false
+  xy: 140, 70
+  size: 91, 93
+  orig: 91, 93
+  offset: 0, 0
+  index: -1

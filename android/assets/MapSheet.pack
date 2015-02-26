@@ -1,0 +1,52 @@
+
+MapSheet.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+track1
+  rotate: false
+  xy: 1, 356
+  size: 400, 353
+  orig: 400, 353
+  offset: 0, 0
+  index: -1
+track2
+  rotate: false
+  xy: 1, 1
+  size: 400, 353
+  orig: 400, 353
+  offset: 0, 0
+  index: -1
+track3
+  rotate: false
+  xy: 403, 356
+  size: 400, 353
+  orig: 400, 353
+  offset: 0, 0
+  index: -1
+track4
+  rotate: false
+  xy: 403, 1
+  size: 400, 353
+  orig: 400, 353
+  offset: 0, 0
+  index: -1
+
+MapSheet2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+track5
+  rotate: false
+  xy: 1, 1
+  size: 400, 353
+  orig: 400, 353
+  offset: 0, 0
+  index: -1
+track6
+  rotate: false
+  xy: 403, 1
+  size: 400, 353
+  orig: 400, 353
+  offset: 0, 0
+  index: -1
