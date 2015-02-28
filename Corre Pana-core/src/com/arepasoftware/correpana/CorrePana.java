@@ -11,7 +11,7 @@ public class CorrePana extends ApplicationAdapter {
 
 	OrthographicCamera camera;
 	GameAction game;
-	
+
 	@Override
 	public void create () 
 	{		

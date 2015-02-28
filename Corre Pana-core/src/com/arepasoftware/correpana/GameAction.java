@@ -9,7 +9,7 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
 public class GameAction
 {
 	private Map map;
-	private Stage stage;
+	public static Stage stage;
 	public static Player player;
 	private float deltaTime;
 	
@@ -24,22 +24,22 @@ public class GameAction
 	
 	public void update()
 	{
-		deltaTime+=Gdx.graphics.getDeltaTime();
-		 
+		deltaTime+=Gdx.graphics.getDeltaTime();		 
 		map.update();
+//		Gdx.app.log("", ""+ stage.getActors());
 		if(deltaTime>1)
 		{
 		    for(int x = 0;x<4;x++)
 		    {
-			    if(map.mapBlock(x)==1)
+			    if(map.mapBlock(x)!=0)
 			    {
-			    	stage.addActor(new Block(x));
+			    	stage.addActor(new Block(map.mapBlock(x),x));
 			    }
 		    }
 		    map.nextStep();
 		    deltaTime=0;
 		}
-		   stage.addActor(player);  
+		stage.addActor(player);  
 	    stage.act(Gdx.graphics.getDeltaTime());
 	    stage.draw(); 
 	}

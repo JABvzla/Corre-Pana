@@ -91,6 +91,7 @@ public class Player extends Actor
 				}
 				break;
 			case Duck:
+
 				break;
 				default:
 				break;
@@ -107,6 +108,8 @@ public class Player extends Actor
 			runAction(PlayerAction.Move_Right);
 		case Up:
 			runAction(PlayerAction.Jump);
+		case Down :
+			runAction(PlayerAction.Duck);
 		default:
 			break;
 		}
